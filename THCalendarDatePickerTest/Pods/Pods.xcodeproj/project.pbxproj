@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167C4E29735818CAC1E623BE535B38C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		27AF892D54BBA345BFE0994E496C90DE /* THDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9158DA3082DD0081E2A0F74103B12E /* THDatePickerViewController.m */; };
+		454C9DC2B73FD2F237544DDD49EBAB7E /* THCalendarDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9146C20E55EC80BF1E2A26717D806C81 /* THCalendarDatePicker-dummy.m */; };
+		46C4CA96DB9AE389F907BAA0D2F397FB /* UIViewController+KNSemiModal.h in Headers */ = {isa = PBXBuildFile; fileRef = E630AA1C3DAB2C0B775105966D18B808 /* UIViewController+KNSemiModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562B4117D642AFC616609B5FABBFF566 /* THDateDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E631C1732835CA51B4899405A695B14 /* THDateDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A5C99A19960713296400ACA98303DA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		5DD0AF325BFEC8D71216D1D104F1887A /* NSDate+Difference.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC32C3A40BD424B38DCC4D17601F3 /* NSDate+Difference.m */; };
+		61F0FE865D397FD7F7F0A2BD1C3B6BC6 /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = E172AD118BC89FE20C03DF157BBEAFA5 /* UIViewController+KNSemiModal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88399D17BB75DCFA5821EA9519353657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		A695CB93045DD1E5522386B090FA196B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		BE8FEE5BB775416AE13C7A50DBBCFC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		C4DE3D68EF5AE409C29EC17051CF52BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		D28F65C1E613A17028BD612FC6B4A128 /* NSDate+Difference.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E3628DC66C96813B1A4D4E6B724557 /* NSDate+Difference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4FC9F77571089068E80653E6A837587 /* THDatePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89340CC8556423F058DC8629D92D9E28 /* THDatePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC11B1DEB424959C8A0D23E206DDA41B /* KNSemiModalViewController_hons82-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E687FBF0E8EB144F58CC3F4A561896 /* KNSemiModalViewController_hons82-dummy.m */; };
+		FB414D6D7A1F31DDF04D27E9F297094C /* THDateDay.m in Sources */ = {isa = PBXBuildFile; fileRef = C4703444CCB2608EFC7F48D4E34A0FDB /* THDateDay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7196841684276966038AEE77216B15C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC37CE27BB3DBCE4913C2FB1767FC94;
+			remoteInfo = KNSemiModalViewController_hons82;
+		};
+		7DD0712096E3D5C831987C7626E14F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3C99DA595B44EE5CDFC3D04827E68C;
+			remoteInfo = THCalendarDatePicker;
+		};
+		ED6C10358406375BADFD6450BD9984C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC37CE27BB3DBCE4913C2FB1767FC94;
+			remoteInfo = KNSemiModalViewController_hons82;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E631C1732835CA51B4899405A695B14 /* THDateDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THDateDay.h; path = THCalendarDatePicker/THDateDay.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		35ACE7F3EE4AC8678A1E599716D38175 /* KNSemiModalViewController_hons82.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KNSemiModalViewController_hons82.xcconfig; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BA9E3823111F0E78493C1E1C6E7592B /* THDateDay.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = THDateDay.xib; path = THCalendarDatePicker/THDateDay.xib; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		53F2D3ACD5D555D6079006426776C8B5 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = THCalendarDatePicker/Images.xcassets; sourceTree = "<group>"; };
+		59F64B89B6EC329E8D969474158B9895 /* THDatePickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = THDatePickerViewController.xib; path = THCalendarDatePicker/THDatePickerViewController.xib; sourceTree = "<group>"; };
+		5D9158DA3082DD0081E2A0F74103B12E /* THDatePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THDatePickerViewController.m; path = THCalendarDatePicker/THDatePickerViewController.m; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		7430CFEE4E7A37B31FF2FAA37225D96E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89340CC8556423F058DC8629D92D9E28 /* THDatePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THDatePickerViewController.h; path = THCalendarDatePicker/THDatePickerViewController.h; sourceTree = "<group>"; };
+		9146C20E55EC80BF1E2A26717D806C81 /* THCalendarDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THCalendarDatePicker-dummy.m"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A69C9D3AB118BB0714C58D959B88818B /* THCalendarDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THCalendarDatePicker.xcconfig; sourceTree = "<group>"; };
+		AB4BC32C3A40BD424B38DCC4D17601F3 /* NSDate+Difference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Difference.m"; path = "THCalendarDatePicker/NSDate+Difference.m"; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1C9E47A34204D87C4596E85C6EA3BBC /* libKNSemiModalViewController_hons82.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKNSemiModalViewController_hons82.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4703444CCB2608EFC7F48D4E34A0FDB /* THDateDay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THDateDay.m; path = THCalendarDatePicker/THDateDay.m; sourceTree = "<group>"; };
+		C7E3628DC66C96813B1A4D4E6B724557 /* NSDate+Difference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Difference.h"; path = "THCalendarDatePicker/NSDate+Difference.h"; sourceTree = "<group>"; };
+		C9182FC2B6BFA3232D5CE15B492114C9 /* KNSemiModalViewController_hons82-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNSemiModalViewController_hons82-prefix.pch"; sourceTree = "<group>"; };
+		D0E687FBF0E8EB144F58CC3F4A561896 /* KNSemiModalViewController_hons82-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KNSemiModalViewController_hons82-dummy.m"; sourceTree = "<group>"; };
+		DAA05DE7CD1B300EED213ACCB2F75395 /* libTHCalendarDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTHCalendarDatePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E172AD118BC89FE20C03DF157BBEAFA5 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KNSemiModal.m"; path = "Source/UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		E630AA1C3DAB2C0B775105966D18B808 /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KNSemiModal.h"; path = "Source/UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		ECDA8B32772FFBF5299B05EB31BEEF8D /* THCalendarDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THCalendarDatePicker-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFAFDD3F9EDA1B71235976D6EF75594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8FEE5BB775416AE13C7A50DBBCFC45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C128A294A5CFFD0E950B10017201954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A695CB93045DD1E5522386B090FA196B /* Foundation.framework in Frameworks */,
+				167C4E29735818CAC1E623BE535B38C9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA4E612772AF86B65DF23AC6FD7F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88399D17BB75DCFA5821EA9519353657 /* Foundation.framework in Frameworks */,
+				C4DE3D68EF5AE409C29EC17051CF52BD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35255318D5BD6DDEF53366E9E68A3EE5 /* THCalendarDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				C7E3628DC66C96813B1A4D4E6B724557 /* NSDate+Difference.h */,
+				AB4BC32C3A40BD424B38DCC4D17601F3 /* NSDate+Difference.m */,
+				0E631C1732835CA51B4899405A695B14 /* THDateDay.h */,
+				C4703444CCB2608EFC7F48D4E34A0FDB /* THDateDay.m */,
+				89340CC8556423F058DC8629D92D9E28 /* THDatePickerViewController.h */,
+				5D9158DA3082DD0081E2A0F74103B12E /* THDatePickerViewController.m */,
+				AC0CBDD01482666AAA8AB87ECECDB3D2 /* Resources */,
+				C453DC6185E60BD499220963023458FD /* Support Files */,
+			);
+			path = THCalendarDatePicker;
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		436FD736A276859F415BC9F89CDBD282 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58C978E566CAE12099C1441C1868BDFC /* KNSemiModalViewController_hons82 */,
+				35255318D5BD6DDEF53366E9E68A3EE5 /* THCalendarDatePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58C978E566CAE12099C1441C1868BDFC /* KNSemiModalViewController_hons82 */ = {
+			isa = PBXGroup;
+			children = (
+				E630AA1C3DAB2C0B775105966D18B808 /* UIViewController+KNSemiModal.h */,
+				E172AD118BC89FE20C03DF157BBEAFA5 /* UIViewController+KNSemiModal.m */,
+				B16895B48655EEBB45DBAA9DEA5264EF /* Support Files */,
+			);
+			path = KNSemiModalViewController_hons82;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				436FD736A276859F415BC9F89CDBD282 /* Pods */,
+				E2AFC6DF58C2F3218F430DA5F4932C08 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0CBDD01482666AAA8AB87ECECDB3D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53F2D3ACD5D555D6079006426776C8B5 /* Images.xcassets */,
+				3BA9E3823111F0E78493C1E1C6E7592B /* THDateDay.xib */,
+				59F64B89B6EC329E8D969474158B9895 /* THDatePickerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B16895B48655EEBB45DBAA9DEA5264EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35ACE7F3EE4AC8678A1E599716D38175 /* KNSemiModalViewController_hons82.xcconfig */,
+				D0E687FBF0E8EB144F58CC3F4A561896 /* KNSemiModalViewController_hons82-dummy.m */,
+				C9182FC2B6BFA3232D5CE15B492114C9 /* KNSemiModalViewController_hons82-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KNSemiModalViewController_hons82";
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		C453DC6185E60BD499220963023458FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69C9D3AB118BB0714C58D959B88818B /* THCalendarDatePicker.xcconfig */,
+				9146C20E55EC80BF1E2A26717D806C81 /* THCalendarDatePicker-dummy.m */,
+				ECDA8B32772FFBF5299B05EB31BEEF8D /* THCalendarDatePicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/THCalendarDatePicker";
+			sourceTree = "<group>";
+		};
+		E2AFC6DF58C2F3218F430DA5F4932C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C9E47A34204D87C4596E85C6EA3BBC /* libKNSemiModalViewController_hons82.a */,
+				7430CFEE4E7A37B31FF2FAA37225D96E /* libPods.a */,
+				DAA05DE7CD1B300EED213ACCB2F75395 /* libTHCalendarDatePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36A62C3E037EFA6632783773E87FC33D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C4CA96DB9AE389F907BAA0D2F397FB /* UIViewController+KNSemiModal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E6F9B77427897C6E11F5C35A27D044 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28F65C1E613A17028BD612FC6B4A128 /* NSDate+Difference.h in Headers */,
+				562B4117D642AFC616609B5FABBFF566 /* THDateDay.h in Headers */,
+				D4FC9F77571089068E80653E6A837587 /* THDatePickerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1054365D74663F7AC458E8974CE670BF /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287F42F524FAF846B6DBDEBE5C3F69AE /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				4A497C2B420F3266DE54B409FF286CC9 /* Sources */,
+				4DFAFDD3F9EDA1B71235976D6EF75594 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A307819029AE8477C35B7981E79610B2 /* PBXTargetDependency */,
+				EF200C38085565435BDC48AAFDD6F595 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 7430CFEE4E7A37B31FF2FAA37225D96E /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBC37CE27BB3DBCE4913C2FB1767FC94 /* KNSemiModalViewController_hons82 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6850E665C3CFB6CB9DA0236E14D8C9 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */;
+			buildPhases = (
+				5D39975761A8D08CD1C30DF3AD14F2A3 /* Sources */,
+				FCFA4E612772AF86B65DF23AC6FD7F60 /* Frameworks */,
+				36A62C3E037EFA6632783773E87FC33D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNSemiModalViewController_hons82;
+			productName = KNSemiModalViewController_hons82;
+			productReference = C1C9E47A34204D87C4596E85C6EA3BBC /* libKNSemiModalViewController_hons82.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC3C99DA595B44EE5CDFC3D04827E68C /* THCalendarDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C298C0C06CFBE67FC3C538A431059B0 /* Build configuration list for PBXNativeTarget "THCalendarDatePicker" */;
+			buildPhases = (
+				D16476FD8E6FB6D419A6AC1B88943870 /* Sources */,
+				8C128A294A5CFFD0E950B10017201954 /* Frameworks */,
+				B7E6F9B77427897C6E11F5C35A27D044 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BFC06AB8F234762756E19070C3C9B7 /* PBXTargetDependency */,
+			);
+			name = THCalendarDatePicker;
+			productName = THCalendarDatePicker;
+			productReference = DAA05DE7CD1B300EED213ACCB2F75395 /* libTHCalendarDatePicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E2AFC6DF58C2F3218F430DA5F4932C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC37CE27BB3DBCE4913C2FB1767FC94 /* KNSemiModalViewController_hons82 */,
+				1054365D74663F7AC458E8974CE670BF /* Pods */,
+				DC3C99DA595B44EE5CDFC3D04827E68C /* THCalendarDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A497C2B420F3266DE54B409FF286CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A5C99A19960713296400ACA98303DA /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D39975761A8D08CD1C30DF3AD14F2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC11B1DEB424959C8A0D23E206DDA41B /* KNSemiModalViewController_hons82-dummy.m in Sources */,
+				61F0FE865D397FD7F7F0A2BD1C3B6BC6 /* UIViewController+KNSemiModal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16476FD8E6FB6D419A6AC1B88943870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD0AF325BFEC8D71216D1D104F1887A /* NSDate+Difference.m in Sources */,
+				454C9DC2B73FD2F237544DDD49EBAB7E /* THCalendarDatePicker-dummy.m in Sources */,
+				FB414D6D7A1F31DDF04D27E9F297094C /* THDateDay.m in Sources */,
+				27AF892D54BBA345BFE0994E496C90DE /* THDatePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BFC06AB8F234762756E19070C3C9B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KNSemiModalViewController_hons82;
+			target = CBC37CE27BB3DBCE4913C2FB1767FC94 /* KNSemiModalViewController_hons82 */;
+			targetProxy = 7196841684276966038AEE77216B15C7 /* PBXContainerItemProxy */;
+		};
+		A307819029AE8477C35B7981E79610B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KNSemiModalViewController_hons82;
+			target = CBC37CE27BB3DBCE4913C2FB1767FC94 /* KNSemiModalViewController_hons82 */;
+			targetProxy = ED6C10358406375BADFD6450BD9984C1 /* PBXContainerItemProxy */;
+		};
+		EF200C38085565435BDC48AAFDD6F595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = THCalendarDatePicker;
+			target = DC3C99DA595B44EE5CDFC3D04827E68C /* THCalendarDatePicker */;
+			targetProxy = 7DD0712096E3D5C831987C7626E14F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FFA853E27F959FB6819003975CCB5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ACE7F3EE4AC8678A1E599716D38175 /* KNSemiModalViewController_hons82.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5A948B6289E7AE3E772E72FA42025641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A72CB3DA53E115AE463BFE4FA263B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ACE7F3EE4AC8678A1E599716D38175 /* KNSemiModalViewController_hons82.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89457E73EBE724A5B6998B8FE1E73819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69C9D3AB118BB0714C58D959B88818B /* THCalendarDatePicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/THCalendarDatePicker/THCalendarDatePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2FE752954B3CBDD4967EFD03D400353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69C9D3AB118BB0714C58D959B88818B /* THCalendarDatePicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/THCalendarDatePicker/THCalendarDatePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6EFB29CC0F3E3E8F3B24137780BB46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287F42F524FAF846B6DBDEBE5C3F69AE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EFB29CC0F3E3E8F3B24137780BB46F /* Debug */,
+				5A948B6289E7AE3E772E72FA42025641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C298C0C06CFBE67FC3C538A431059B0 /* Build configuration list for PBXNativeTarget "THCalendarDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89457E73EBE724A5B6998B8FE1E73819 /* Debug */,
+				A2FE752954B3CBDD4967EFD03D400353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6850E665C3CFB6CB9DA0236E14D8C9 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A72CB3DA53E115AE463BFE4FA263B03 /* Debug */,
+				2FFA853E27F959FB6819003975CCB5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
